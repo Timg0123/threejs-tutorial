@@ -1,6 +1,6 @@
 import { useFrame } from '@react-three/fiber';
 
-function myMesh() {
+export default function myMesh() {
   useFrame(() => {
     console.log('Every frame ;D');
   });
@@ -12,5 +12,3 @@ function myMesh() {
     </mesh>
   );
 }
-
-export default myMesh;
