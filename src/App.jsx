@@ -2,7 +2,7 @@ import myMesh from './myMesh.jsx';
 import { Canvas } from '@react-three/fiber';
 import './index.css';
 
-function App() {
+export default function App() {
   return (
     <div className="app">
       <div id="canvas-container">
@@ -13,5 +13,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
